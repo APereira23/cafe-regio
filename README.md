@@ -1,2 +1,2 @@
-# projeto-restaurante
-My first HTML/CSS project: a restaurant website
+# Project-Restaurant
+My first HTML project: a restaurant website
