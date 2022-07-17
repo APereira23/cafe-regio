@@ -1,0 +1,15 @@
+* {
+  color: rgb(18, 18, 18);
+  font-family: "Times New Roman", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+header {
+  background-color: rgb(157, 186, 231);
+;}
+
+img {
+  height: auto;
+  width: 144px;
+}
