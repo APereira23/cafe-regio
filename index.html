@@ -3,46 +3,63 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>A Tasca do Toni | Restaurante | Cervejaria | Lisboa</title>
+    <title>Café Santos | Restaurante | Cervejaria | Lisboa</title>
+    <script src="javascript.js"></script>
     <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
     <header>
-      <div>
-        <h1  id="nome">Nome</h1>
+      <div class="title">
+        <h1  id="nome">Café Santos</h1>
       </div>
-      <div id="slogan">
-        <p>slogan goes here</p>
+      <div>
+        <p class="slogan"></p>
       </div>
       <nav>
         <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href=#sobre>Sobre Nós</a></li>
-          <li><a href="./pages/menu.html">Menu</a></li>
-          <li><a href="./pages/takeaway.html">Takeaway</a></li>
-          <li><a href=#contactos>Contactos</a></li>
+          <li><a class="nav" href="./index.html">Home</a></li>
+          <li><a class="nav" href=#sobre>Sobre Nós</a></li>
+          <li><a class="nav" href="./pages/menu/menu.html">Menu</a></li>
+          <li><a class="nav" href="./pages/takeaway/takeaway.html">Takeaway</a></li>
+          <li><a class="nav" href=#contactos>Contactos</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section id=imagens>
-        <picture>
-          <img src="./images/prato-1-1080w.jpg" alt="grande pota">               
-        </picture>
-        <picture>
-          <img src="./images/prato-2-1080w.jpg" alt="uma bela patanisca">
-        </picture>
-        <picture>
-          <img src="./images/tasca.jpg" alt="ambiente acolhedor">
-        </picture>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="./images/prato-1-1080w.jpg" height="600" width="400" style="width:100%; height: fit-content;" alt="grande pota">               
+          </div>
+          <div class="mySlides fade">
+            <img src="./images/prato-2-1080w.jpg" height="600" width="400" style="width: 100%; height: fit-content" alt="uma bela patanisca">               
+          </div>
+          <div class="mySlides fade">
+            <img id="tasca" src="./images/tasca.jpg" height="600" width="400" style="width: 40%; height: fit-content" alt="ambiente acolhedor">
+          </div>
+        
+
+        <!-- The dots-->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide (1)"></span>
+          <span class="dot" onclick="currentSlide (2)"></span>
+          <span class="dot" onclick="currentSlide (3)"></span>
+        </div>
+      
+      
       </section>
      
       <section id="sobre">
         <h4>Sobre Nós</h4>
         <article>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis volutpat iaculis. Quisque volutpat porta gravida. Etiam vel ligula at nisl placerat suscipit. Donec nulla est, blandit sed magna nec, porttitor elementum felis. Quisque malesuada egestas eleifend. Etiam dictum sapien quis tortor hendrerit, ut auctor lacus tempor. Duis consectetur sem in nulla rutrum, ut lacinia turpis accumsan. Vivamus facilisis sem vel orci semper, in sollicitudin nisi tincidunt. Duis nulla orci, molestie et varius sit amet, rutrum nec risus. Nullam non libero eget magna bibendum dapibus. Ut in massa finibus erat dapibus volutpat ut sed diam. Cras pulvinar in turpis hendrerit dapibus. Etiam blandit nec augue sit amet hendrerit. Praesent ultricies ultricies egestas. Nullam semper faucibus molestie. Donec leo dui, aliquet a elementum quis, molestie a ante.
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Proin venenatis volutpat iaculis. Quisque volutpat porta gravida.
+            Etiam vel ligula at nisl placerat suscipit. Donec nulla est,
+            blandit sed magna nec, porttitor elementum felis.
+            Quisque malesuada egestas eleifend.
           </p>
         </article>
       </section>
@@ -51,7 +68,7 @@
     <footer>
       <!--contactos, horários-->
       <section id="contactos">
-        <h5>A Tasca do Toni</h5>
+        <h3>Café Santos</h3>
         <p>contactos e horários aqui</p>
       </section>
     </footer>
