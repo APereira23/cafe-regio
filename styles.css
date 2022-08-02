@@ -34,11 +34,16 @@ header {
 nav {
   border: #5461f9;
   border-style:inset;
+  text-align: right;
+  padding-right: 30px;
+  color: #1221c3c5;
+  font-weight: bold;
+  
 }
 
 li {
   display: inline;
-  margin: 5px;
+  margin: 10px;
 }
 
 .nav {
@@ -54,57 +59,6 @@ main {
   margin: 10px;
 }
 
-/* slideshow */
-
-.slideshow-container {
-  width: 60%;
-  height: 100%;
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-  display: none;
-  position: relative;
-
-}
-
-#tasca {
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 4px;
-width: 50%;
-}
-
-
-
-
-.dot {
-  cursor: pointer;
-  height: 10px;
-  width: 10px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.9s ease;
-}
-
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
 /* footer */
 
