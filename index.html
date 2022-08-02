@@ -10,56 +10,64 @@
 
   <body>
     <header>
-      <div class="title">
-        <h1  id="nome">Café Santos</h1>
-      </div>
-      <div>
-        <p class="slogan"></p>
-      </div>
       <nav>
         <ul>
-          <li><a class="nav" href="./index.html">Home</a></li>
-          <li><a class="nav" href=#sobre>Sobre Nós</a></li>
-          <li><a class="nav" href="./pages/menu/menu.html">Menu</a></li>
-          <li><a class="nav" href="./pages/takeaway/takeaway.html">Takeaway</a></li>
-          <li><a class="nav" href=#contactos>Contactos</a></li>
+          <li><a class="nav subtitle" href="./index.html">Home</a></li>
+          <li><a class="nav subtitle" href=#sobre>Sobre Nós</a></li>
+          <li><a class="nav subtitle" href="./pages/menu/menu.html">Menu</a></li>
+          <li><a class="nav subtitle" href="./pages/takeaway/takeaway.html">Takeaway</a></li>
+          <li><a class="nav subtitle" href=#contactos>Contactos</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section id=imagens>
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <img src="./images/prato-1-1080w.jpg" style="width:100%" alt="grande pota">               
+      <section class="title">
+          <div class="img-container">
+            <img src="./images/pexels-photo-260922.jpg" style="width:100%" alt="salão-principal">               
+            <div class="nomecafe">CAFÉ SANTOS</div>
           </div>
-          <div class="mySlides fade">
-            <img src="./images/prato-2-1080w.jpg" width="100%" alt="uma bela patanisca">               
-          </div>
-          <div class="mySlides fade">
-            <img id="tasca" src="./images/tasca.jpg" width="100%" alt="ambiente acolhedor">
-          </div>
+        </div>
       
       </section>
-     
-      <section id="sobre">
-        <h4>Sobre Nós</h4>
-        <article>
+      <br>
+      <div class="slogan">
+        <h5>Quem conhece, dá a conhecer.</h5>
+      </div>
+      <br>
+      <section class="sobre">
+        <div class="img-container">
+          <div class="frame">
+            <img src="./images/prato-1-1080w.jpg" alt="bela pota">
+          </div>
+        </div>
+        <div class="text">
+          <div class="subtitle">Sobre Nós</div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Proin venenatis volutpat iaculis. Quisque volutpat porta gravida.
-            Etiam vel ligula at nisl placerat suscipit. Donec nulla est,
-            blandit sed magna nec, porttitor elementum felis.
-            Quisque malesuada egestas eleifend.
+            Nullam finibus justo vel dui ultricies, id maximus erat tempus.
+            Donec scelerisque condimentum libero in tincidunt.
+            Donec tempus accumsan nulla ac tempor. Donec ut condimentum eros.
+            Aenean placerat pulvinar fringilla. Cras auctor pharetra metus.
+            In ut tristique urna.
+            <br>
+            <br>
+            Aliquam vitae efficitur est, vel laoreet neque.
+            Curabitur posuere mattis lacus, sed vestibulum lorem euismod eget.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Nam sed sagittis justo, sit amet maximus orci.
+            Pellentesque consectetur dui nec justo posuere, maximus rhoncus ligula congue.
+            Fusce ac molestie lorem. Nullam auctor leo ut erat volutpat, vitae sollicitudin
+            tortor faucibus. 
           </p>
-        </article>
+        </div>
       </section>
     </main>
       
     <footer>
       <!--contactos, horários-->
       <section id="contactos">
-        <h3>Café Santos</h3>
+        <h3 class="subtitle">Café Santos</h3>
         <p>contactos e horários aqui</p>
       </section>
     </footer>

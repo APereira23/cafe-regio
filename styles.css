@@ -11,24 +11,14 @@
 
 header {
   background-color: #d7d7d7db;
-  margin: 10px;
+  margin: 10px;;
   padding: 5px;
 }
 
-
-#nome {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:xx-large;
-  font-weight: bolder;
-  text-align: center;
-  margin-left: 10px;
-  color: #30399b;
-}
-
-.slogan {
+.subtitle {
+  color: #1221c3c5;
   font-size: larger;
-  font-weight: bolder;
-  margin-left: 30px;
+  font-weight: bold;
 }
 
 nav {
@@ -36,8 +26,6 @@ nav {
   border-style:inset;
   text-align: right;
   padding-right: 30px;
-  color: #1221c3c5;
-  font-weight: bold;
   
 }
 
@@ -59,6 +47,66 @@ main {
   margin: 10px;
 }
 
+.img-container {
+  position: relative;
+  text-align: center;
+}
+
+.nomecafe {
+  color: rgb(203, 203, 203);
+  font-family: 'Courier New', Courier, monospace;
+  font-size:36px;
+  font-weight: bolder;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.slogan h5 {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 700;
+  color: rgba(49, 48, 53, 0.876);
+}
+
+.sobre {
+  display: flex;
+  padding: 3px;
+}
+
+
+.sobre .img-container .frame {
+  position: relative;
+  border: 0px solid #1221c3c5;
+  background: #8d96f992;
+  margin-right: -10px;
+  padding: 25px 10px;
+}
+
+.sobre .img-container img {
+  position: relative;
+  width:90%;
+ 
+}
+.sobre .text {
+  width: 100%;
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background-color: #8d96f992;
+}
+.sobre .text .subtitle {
+  text-align: center;
+  font-size: x-large;
+  background-color: rgba(169, 149, 247, 0.876);
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: -5px;
+}
+
+.sobre .text p {
+  font-size: medium;
+}
 
 /* footer */
 
@@ -66,4 +114,5 @@ footer {
   background-color: #d7d7d7db;
   padding: 10px;
   margin: 10px;
+  text-align: center;
 }
