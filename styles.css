@@ -78,6 +78,7 @@ main {
 .sobre {
   display: flex;
   padding: 3px;
+  margin: -3px;
 }
 
 
@@ -86,13 +87,12 @@ main {
   border: 0px solid #c97d208a;
   background: #ec9a368a;
   margin-right: -10px;
-  padding: 25px 10px;
+  padding: 27px 10px;
 }
 
 .sobre .img-container img {
   position: relative;
   width:90%;
- 
 }
 .sobre .text {
   width: 100%;
@@ -104,7 +104,7 @@ main {
 .sobre .text .subtitle {
   text-align: center;
   font-size: x-large;
-  background-color: #dc861d92;
+  background-color: #d2790dcc;
   margin-left: -5px;
   margin-right: -5px;
   margin-top: -5px;

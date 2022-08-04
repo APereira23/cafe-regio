@@ -3,18 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+    <!--mudar nome-->
     <title>Menu | Café Santos</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
     <header>
-      <div class="title">
-        <h1  id="nome">Café Santos</h1>
-      </div>
-      <div>
-        <p class="slogan"></p>
-      </div>
       <nav>
         <ul>
           <li><a class="nav" href="../../index.html">Home</a></li>
@@ -27,76 +22,81 @@
     </header>
 
     <main>
-      <table id="pratosdia">
-        <thead>
-          <tr>
-            <th colspan="3">Pratos do Dia ([inserir data])</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td rowspan="3">Prato 1</td>
-            <td rowspan="3">Prato 2</td>
-            <td rowspan="3">Prato 3</td>
-          </tr>          
-          <tr>
-            <td rowspan="3">Prato 4</td>
-            <td rowspan="3">Prato 5</td>
-            <td rowspan="3">Prato 6</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <table id="bebidas">
-        <thead>
-          <tr>
-            <th colspan="3">Bebidas e Acompanhamentos</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td colspan="2">Imperial (25cl)</td>
-            <td>Preço</td>
-          </tr>
-          <tr>
-            <td colspan="2">Caneca de Cerveja (40cl)</td>
-            <td>Preço</td>
-          </tr>
-          <tr>
-            <td colspan="2">Sumo de Lata (33cl)</td>
-            <td>Preço</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <table id="sobremesas">
-        <thead>
-          <tr>
-            <th colspan="3">Sobremesas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td colspan="2">Doce da Casa</td>
-            <td>Preço</td>
-          </tr>
-          <tr>
-            <td colspan="2">Pudim</td>
-            <td>Preço</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="3"><em>Preços com IVA incluído à taxa em vigor</em></td>
-          </tr>
-        </tfoot>
-      </table>
+      <div class="flex-container">
+        <table class="pratosdia">
+          <thead>
+            <tr>
+              <!--inserir data de hoje: js?-->
+              <th class="menu-table-head" colspan="6">Pratos do Dia</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2">Prato 1</td>
+              <td colspan="2">Prato 2</td>
+              <td colspan="2">Prato 3</td>
+            </tr>          
+            <tr>
+              <td colspan="2">Prato 4</td>
+              <td colspan="2">Prato 5</td>
+              <td colspan="2">Prato 6</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <table class="bebidas">
+          <thead>
+            <tr>
+              <th class="menu-table-head" colspan="6">Bebidas e Acompanhamentos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2">Imperial (25cl)</td>
+              <td colspan="2"></td>
+              <td colspan="2">Preço</td>
+            </tr>
+            <tr>
+              <td colspan="2">Caneca de Cerveja (40cl)</td>
+              <td colspan="2"></td>
+              <td colspan="2">Preço</td>
+            </tr>
+            <tr>
+              <td colspan="2">Sumo de Lata (33cl)</td>
+              <td colspan="2"></td>
+              <td colspan="2">Preço</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <table class="sobremesas">
+          <thead>
+            <tr>
+              <th class="menu-table-head" colspan="6">Sobremesas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2">Doce da Casa</td>
+              <td colspan="2"></td>
+              <td colspan="2">Preço</td>
+            </tr>
+            <tr>
+              <td colspan="2">Pudim</td>
+              <td colspan="2"></td>
+              <td colspan="2">Preço</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br>
+      <p class="iva"><em>Preços com IVA incluído à taxa em vigor</em></td>
     </main>
 
     <footer>
-      <!--contactos, horários-->
-      <section id="contactos">
-        <h5>A Tasca do Toni</h5>
+      <section class= "contactos" id="contactos">
+        <!--mudar nome-->
+        <h3 class="subtitle">Café Santos</h3>
         <p>contactos e horários aqui</p>
       </section>
     </footer>
