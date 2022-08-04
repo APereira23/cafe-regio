@@ -3,60 +3,52 @@
   font-family: "Times New Roman", sans-serif;
   font-size: 12px;
   font-weight: 500;
-  box-sizing: border-box;
 }
 
 /* header */
 
 header {
-  background-color: #d7d7d7db;
+  background-color: #faa331a0;
   margin: 10px;
   padding: 5px;
+  margin-bottom: -10px;
 }
 
-
-#nome {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:xx-large;
-  font-weight: bolder;
-  text-align: center;
-  margin-left: 10px;
-  color: #30399b;
-}
-
-.slogan {
+.subtitle {
+  color: #110b03e1;
   font-size: larger;
-  font-weight: bolder;
-  margin-left: 30px;
+  font-weight: bold;
 }
 
 nav {
-  border: #5461f9;
+  background-color: #faa331a0;
+  border: #744508a0;
   border-style:inset;
+  text-align: right;
+  padding-right: 30px;
+  margin: 5px;
+  
 }
 
 li {
   display: inline;
-  margin: 5px;
+  margin: 10px;
 }
-
-.nav {
-  color: #1221c3c5;
-  font-weight: bold;
-}
-
 
 /* main */
 main {
-  background-color: #d7d7d7db;
+  background-color: #faa331a0;
   padding: 10px;
   margin: 10px;
+  margin-bottom: -10px;
 }
+
 
 /* footer */
 
 footer {
-  background-color: #d7d7d7db;
+  background-color: #faa331a0;
   padding: 10px;
   margin: 10px;
+  text-align: center;
 }

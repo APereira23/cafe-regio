@@ -4,7 +4,6 @@
   font-family: "Times New Roman", sans-serif;
   font-size: 12px;
   font-weight: 500;
-  box-sizing: border-box;
 }
 
 /* header */
@@ -16,11 +15,7 @@ header {
   margin-bottom: -10px;
 }
 
-.subtitle {
-  color: #110b03e1;
-  font-size: larger;
-  font-weight: bold;
-}
+
 
 nav {
   background-color: #faa331a0;
@@ -37,18 +32,18 @@ li {
   margin: 10px;
 }
 
-.nav {
-  color: #251707b1;
-  font-weight: bold;
-}
-
-
 /* main */
 main {
   background-color: #faa331a0;
   padding: 10px;
   margin: 10px;
   margin-bottom: -10px;
+}
+
+.subtitle {
+  color: #110b03e1;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .img-container {
