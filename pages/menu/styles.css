@@ -35,6 +35,11 @@ li {
   margin: 10px;
 }
 
+.navlink {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
 /* main */
 main {
   background-color: #faa331a0;
@@ -42,6 +47,39 @@ main {
   margin: 10px;
   margin-bottom: -10px;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container table {
+  border: 2px solid #341f03d6;
+  border-style: dotted;
+  flex: auto;
+}
+
+.menu-table-head {
+  text-align: left;
+  background-color: #faa331a0;
+  font-weight: 700;
+}
+
+td {
+  background-color: rgba(214, 146, 36, 0.135);
+}
+
+/* pratos-dia */
+
+.pratos-dia .menu-table-head{
+  text-align: center;
+  font-size: 20px;
+}
+.pratos-dia td {
+  text-align: center;
+}
+
+
 
 
 /* footer */

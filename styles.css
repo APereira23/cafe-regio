@@ -32,6 +32,11 @@ li {
   margin: 10px;
 }
 
+.navlink {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
 /* main */
 main {
   background-color: #faa331a0;
