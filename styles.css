@@ -82,18 +82,22 @@ main {
   padding-bottom: 70px;
 }
 
+.sobre .img-container {
+  background-color: #ec9a3653;
+  margin-right: -10px;
+  flex-shrink: 2;
+}
 
 .sobre .img-container .frame {
   position: relative;
   border: 0px solid #ec9a3653;
-  background: #ec9a3653;
   margin-right: -10px;
   padding: 27px 10px;
 }
 
 .sobre .img-container img {
   position: relative;
-  width:90%;
+  width:80%;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.739);
 }
@@ -115,6 +119,8 @@ main {
 
 .sobre .text p {
   font-size: medium;
+  max-height: 250px;
+  overflow: auto;
 }
 
 /* footer */
