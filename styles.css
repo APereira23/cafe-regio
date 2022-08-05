@@ -124,3 +124,52 @@ footer {
   margin-top: 12px;
   text-align: center;
 }
+
+@media screen (max-width:900px) {
+
+nav
+  {
+  text-align: center;
+  }
+
+.navlink
+  {
+  font-size: 14px;
+  font-weight: bolder;
+  }
+
+.sobre
+  {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 70px;;
+  }
+
+.sobre .img-container
+  {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  }
+
+.sobre .img-container img
+
+  {
+  width: 80%;
+  } 
+
+.sobre .text
+  {
+  width:100%;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 20px;
+  }
+
+.sobre .text p
+  {
+  font-size: 14px;
+  max-height: 400px;
+  }
+
+}
