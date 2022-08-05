@@ -1,14 +1,15 @@
 * {
   color: rgb(0, 0, 0);
   font-family: "Times New Roman", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
+  box-sizing: border-box;
 }
 
 /* header */
 
 header {
-  background-color: #faa331a0;
+  background-color: #fab760a0;
   margin: 10px;
   padding: 5px;
   margin-bottom: -10px;
@@ -21,7 +22,7 @@ header {
 }
 
 nav {
-  background-color: #faa331a0;
+  background-color: #ff770050;
   border: #744508a0;
   border-style:inset;
   text-align: right;
@@ -36,13 +37,13 @@ li {
 }
 
 .navlink {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: bolder;
 }
 
 /* main */
 main {
-  background-color: #faa331a0;
+  background-color: #fab760a0;
   padding: 10px;
   margin: 10px;
   margin-bottom: -12px;
@@ -78,7 +79,7 @@ img {
 
 .menu-table-head {
   text-align: left;
-  background-color: #faa331a0;
+  background-color: #ff4d004f;
   font-weight: 700;
 }
 
@@ -110,8 +111,9 @@ td {
 /* footer */
 
 footer {
-  background-color: #f19217d8;
+  background-color: #ff7700ae;
   padding: 10px;
   margin: 10px;
+  margin-top: 12px;
   text-align: center;
 }
