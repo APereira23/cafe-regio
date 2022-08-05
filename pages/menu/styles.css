@@ -116,3 +116,50 @@ footer {
   margin-top: 12px;
   text-align: center;
 }
+
+/* mobile */
+
+@media only screen and (max-width:900px) {
+
+nav
+  {
+  text-align: center;
+  margin: 0px;
+  }
+
+li
+  {
+  display:contents;
+  
+  }
+
+#nav-home,
+#nav-sobre
+  {
+  display: none;
+  }
+
+.navlink 
+  {
+  margin: 3px;
+  font-size: 13px;
+  font-weight: bolder;
+  }
+
+.pratos-dia td 
+  {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+
+img 
+  {
+  margin: 10%;
+  }
+
+td
+  {
+  margin-top: 2px;
+  }
+}

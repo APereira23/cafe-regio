@@ -125,16 +125,33 @@ footer {
   text-align: center;
 }
 
+
+/* mobile */
+
 @media only screen and (max-width:900px) {
 
 nav
   {
   text-align: center;
+  margin: 0px;
   }
 
-.navlink
+li
   {
-  font-size: 14px;
+  display:contents;
+  
+  }
+
+#nav-home,
+#nav-sobre
+  {
+  display: none;
+  }
+
+.navlink 
+  {
+  margin: 3px;
+  font-size: 13px;
   font-weight: bolder;
   }
 
