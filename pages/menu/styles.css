@@ -3,15 +3,22 @@
   font-family: "Times New Roman", sans-serif;
   font-size: 14px;
   font-weight: 500;
+  ;
+}
+
+body {
+  background-color: #ffd39a;
+  margin: 0px;
 }
 
 /* header */
 
 header {
-  background-color: #fab760a0;
+  background-color: #ffd39a;
   margin: 10px;
   padding: 5px;
   margin-bottom: -10px;
+  
 }
 
 .subtitle {
@@ -21,8 +28,8 @@ header {
 }
 
 nav {
-  background-color: #ff770050;
-  border: #744508a0;
+  background-color: #faa759;
+  border: #744508;
   border-style:inset;
   text-align: right;
   padding-right: 30px;
@@ -42,12 +49,13 @@ li {
 
 /* main */
 main {
-  background-color: #fab760a0;
-  padding: 10px;
+  background-color: #ffd39a;
+  padding: 0px;
   margin: 10px;
   margin-bottom: -12px;
-  padding-bottom: 25px;
 }
+
+
 
 .flex-container {
   display: flex;
@@ -67,6 +75,8 @@ img {
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.739);
   margin: 10px;
+  border-radius: 10%;
+  align-self: center;
 }
 
 
@@ -107,50 +117,43 @@ td {
 
 
 
-/* footer */
-
 footer {
-  background-color: #ff7700ae;
+  background-color: #faa759;
   padding: 10px;
   margin: 10px;
   margin-top: 12px;
   text-align: center;
 }
 
+
 /* mobile */
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:480px) {
 
 nav
   {
+  justify-content: center;
+  padding-right: 0%;
+  }
+
+ul 
+  {
+  padding-left: 0%;
   text-align: center;
-  margin: 0px;
-  }
-
-li
-  {
-  display:contents;
-  
-  }
-
-#nav-menu,
-#nav-sobre
-  {
-  display: none;
   }
 
 .navlink 
   {
-  margin: 3px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bolder;
   }
+
 
 .pratos-dia td 
   {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 99%;
   }
 
 img 
