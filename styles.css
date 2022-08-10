@@ -10,7 +10,7 @@
 /* header */
 
 header {
-  background-color: #fab760a0;
+  background-color: #ffd39a;
   margin: 10px;
   padding: 5px;
   margin-bottom: -10px;
@@ -24,8 +24,8 @@ header {
 }
 
 nav {
-  background-color: #ff770050;
-  border: #744508a0;
+  background-color: #faa759;
+  border: #744508;
   border-style:inset;
   text-align: right;
   padding-right: 30px;
@@ -45,7 +45,7 @@ li {
 
 /* main */
 main {
-  background-color: #fab760a0;
+  background-color: #ffd39a;
   padding: 0px;
   margin: 10px;
   margin-bottom: -12px;
@@ -74,7 +74,7 @@ main {
   text-align: center;
   font-size: x-large;
   font-weight: 700;
-  color: rgb(29, 17, 6);
+  color: #110b03;
 }
 
 .sobre {
@@ -105,7 +105,7 @@ main {
 .sobre .text .subtitle {
   text-align: center;
   font-size: x-large;
-  background-color: #ff4d004f;
+  background-color: #faa759;
 }
 
 .sobre .text p {
@@ -115,12 +115,13 @@ main {
   overflow: auto;
   padding-left: 20px;
   padding-right: 20px;
+  color: #110b03;
 }
 
 /* footer */
 
 footer {
-  background-color: #ff7700ae;
+  background-color: #faa759;
   padding: 10px;
   margin: 10px;
   margin-top: 12px;
