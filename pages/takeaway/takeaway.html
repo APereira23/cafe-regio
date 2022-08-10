@@ -22,75 +22,100 @@
     </header>
 
     <main>
-      <section id="form">
-        <div id="pedido">
+      <section class="form">
+        <div>
           <h1>O que lhe apetece hoje?</h1>
+          <br>
           <form action="../pages/submissions.html" method="POST">
-            <label for="prato-principal">Prato Principal</label>
-              <br>
-              <input type="text" name="prato-principal" 
+            <p class="form-subtitle">Prato Principal</p>
+            <label id="hide"  class="form-subtitle" for="prato-principal"></label>
+              <input id="prato-principal" type="text" name="prato-principal" 
               title="Indique o prato pretendido" required>
             <br>
             <br>
-            <p><strong>Bebida</strong></p>
-              <label for="cerveja">Cerveja Lata(33cl)</label>
-              <input id="cerveja" name="bebida" type="checkbox" value="cerveja">
-                <input id="cerveja" name="bebida" type="text" value="(qual?)">
+            <p class="form-subtitle">Bebida</p>
+              <span class="item">
+                <label for="cerveja">Cerveja Lata(33cl)</label>
+                <input class="checkbox" id="cerveja" name="bebida" type="checkbox" value="cerveja">
+                  <input class="textbox" id="cerveja" name="bebida" type="text" value="(qual?)">
+              </span>
               <br>
-              <label for="sumo">Sumo Lata (33cl)</label>
-              <input id="sumo" name="bebida" type="checkbox" value="sumo">
-                <input id="sumo" name="bebida" type="text" value="(qual?)">
+              <span class="item">
+                <label for="sumo">Sumo Lata (33cl)</label>
+                <input class="checkbox" id="sumo" name="bebida" type="checkbox" value="sumo">
+                  <input class="textbox" id="sumo" name="bebida" type="text" value="(qual?)">
+              </span>
               <br>
-              <label for="agua">Garrafa Água (33cl)</label>
-              <input id="agua" name="bebida" type="checkbox" value="agua">
+              <span class="item">
+                <label for="agua">Garrafa Água (33cl)</label>
+                <input class="checkbox" id="agua" name="bebida" type="checkbox" value="agua">
+              </span>
               <br>
-              <label for="outra">Outra (qual?)</label>
-              <input id="outra" name="bebida" type="text">
+              <span class="item">
+                <label for="outra">Outra (qual?)</label>
+                <input class="checkbox" id="outra" name="bebida" type="checkbox" value="outra">  
+                  <input class="textbox" id="outra" name="bebida" type="text">
+              </span>
               <br><br>
 
-            <p><strong>Extras</strong></p>
-              <label for="batatas">Batatas extra</label>
-              <input id="batatas" name="extras" type="checkbox" value="batatas">
+            <p class="form-subtitle">Extras</p>
+              <span class="item">
+                <label for="batatas">Batatas extra</label>
+                <input class="checkbox" id="batatas" name="extras" type="checkbox" value="batatas">
+              </span>
               <br>
-              <label for="salada">salada</label>
-              <input id="salada" name="extras" type="checkbox" value="salada">
+              <span class="item">
+                <label for="salada">salada</label>
+                <input class="checkbox" id="salada" name="extras" type="checkbox" value="salada">
+              </span>
               <br><br>
 
-            <p><strong>Sobremesa</strong></p>
-              <label for="doce-casa">Doce da Casa</label>
-              <input id="doce-casa" name="extras" type="checkbox" value="doce-casa">
+            <p class="form-subtitle">Sobremesa</p>
+              <span class="item">  
+                <label for="doce-casa">Doce da Casa</label>
+                <input class="checkbox" id="doce-casa" name="extras" type="checkbox" value="doce-casa">
+              </span>
               <br>
-              <label for="pudim">Pudim Flan</label>
-              <input id="pudim" name="extras" type="checkbox" value="pudim">
+              <span class="item">  
+                <label for="pudim">Pudim Flan</label>
+                <input class="checkbox" id="pudim" name="extras" type="checkbox" value="pudim">
+              </span>
               <br><br>
             
-            <label for="comentario">Algum pedido ou especificação adicional?</label>
+            <label class="comentario" for="comentario">Algum pedido ou especificação adicional?</label>
             <br>
-              <textarea id="comentario" name="comentario" rows="3" cols="100">
+              <textarea id="comentario" name="comentario" rows="3" cols="50">
               </textarea> 
             <br>
             <br>
           </div>
-          <div id="dados-cliente">
-            <p>Dados do Cliente</p>
-              <label for="dadosnome">Nome (primeiro e último)</label>
-                <input id="dadosnome" name="dados-cliente" type="text" required>
+          <div class="cliente">
+            <p class="subtitle">Dados do Cliente</p>
+              <span class="item dados">
+                <label for="dadosnome">Nome (primeiro e último)</label>
+                  <input id="dadosnome" name="dados-cliente" type="text" required>
+              </span>
             <br>
-              <label for="nif">NIF</label>
-                <input id="nif" name="dados-cliente" type="text" 
-                pattern="[0-9]+" minlength="9" maxlength="9">
+              <span class="item dados">
+                <label for="nif">NIF</label>
+                  <input id="nif" name="dados-cliente" type="text" 
+                  pattern="[0-9]+" minlength="9" maxlength="9">
+              </span>
             <br>
-              <label for="tlm">Contacto Telefónico</label>
-                <input id="tlm" name="dados-cliente" type="text" 
-                pattern="[0-9]+" minlength="9" maxlength="9" required>
+              <span class="item dados">
+                <label for="tlm">Contacto Telefónico</label>
+                  <input id="tlm" name="dados-cliente" type="text" 
+                  pattern="[0-9]+" minlength="9" maxlength="9" required>
+              </span>
             <br> 
-              <label for="morada">Morada / Código Postal</label>
-                <input id="morada" name="dados-cliente" type="text" required>
-           
+              <span class="item dados">
+                <label for="morada">Morada / Código Postal</label>
+                  <input id="morada" name="dados-cliente" type="text" required>
+              </span>
           </div>
           <br><br>
-          <div id="send">
-            <input type="submit" value="Send">
+          <div class="send">
+            <input type="submit" value="Enviar">
           </div>
         
         </form>

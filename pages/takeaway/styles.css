@@ -3,15 +3,21 @@
   font-family: "Times New Roman", sans-serif;
   font-size: 14px;
   font-weight: 500;
+  ;
+}
+
+body {
+  background-color: #ffd39a;
+  margin: 0px;
 }
 
 /* header */
 
 header {
-  background-color: #fab760a0;
-  margin: 10px;
+  background-color: #ffd39a;
   padding: 5px;
   margin-bottom: -10px;
+  
 }
 
 .subtitle {
@@ -21,8 +27,8 @@ header {
 }
 
 nav {
-  background-color: #ff770050;
-  border: #744508a0;
+  background-color: #faa759;
+  border: #744508;
   border-style:inset;
   text-align: right;
   padding-right: 30px;
@@ -40,54 +46,109 @@ li {
   font-weight: bolder;
 }
 
-/*Main*/
-
-
+/* main */
 main {
-  background-color: #fab760a0;
-  padding: 10px;
+  background-color: #ffd39a;
+  padding: 0px;
   margin: 10px;
   margin-bottom: -12px;
-  padding-bottom: 25px;
 }
+
+/* pedido */
+
+.form {
+  border: dotted 1px #744508;
+  background-color: rgba(224, 146, 20, 0.229);
+  padding: 5px;
+}
+
+#prato-principal {
+  width: 98%;
+}
+
+.form h1 {
+  font-size: 18px;
+}
+
+#hide {
+  display: none;
+}
+
+.form-subtitle {
+  font-weight: 700;
+  background-color: #ff4d004f;
+  border: dotted 1px;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  padding-right: 10px;
+}
+
+
+.item .textbox {
+  width: 180px;
+}
+
+.comentario {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#comentario {
+  width: 98%;
+}
+
+.dados {
+  display: block;
+}
+
+#dadosnome,
+#morada {
+  width: 70%;
+}
+
+.send {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* dados-cliente */
+
 
 
 /* footer */
 
 footer {
-  background-color: #ff7700ae;
+  background-color: #faa759;
   padding: 10px;
   margin: 10px;
   margin-top: 12px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
+
 /* mobile */
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:480px) {
 
 nav
   {
+  justify-content: center;
+  padding-right: 0%;
+  }
+
+ul 
+  {
+  padding-left: 0%;
   text-align: center;
-  margin: 0px;
-  }
-
-li
-  {
-  display:contents;
-  
-  }
-
-#nav-takeaway,
-#nav-sobre
-  {
-  display: none;
   }
 
 .navlink 
   {
-  margin: 3px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bolder;
   }
 
