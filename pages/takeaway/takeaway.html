@@ -26,7 +26,7 @@
         <div>
           <h1>O que lhe apetece hoje?</h1>
           <br>
-          <form action="../pages/submissions.html" method="POST">
+          <form action="../submissions.html" method="POST">
             <p class="form-subtitle">Prato Principal</p>
             <label id="hide"  class="form-subtitle" for="prato-principal"></label>
               <input id="prato-principal" type="text" name="prato-principal" 
@@ -85,7 +85,10 @@
             <label class="comentario" for="comentario">Algum pedido ou especificação adicional?</label>
             <br>
               <textarea id="comentario" name="comentario" rows="3" cols="50">
-              </textarea> 
+              </textarea>
+            <br><br>
+            <label class="item" for="hora">Hora para a recolha</label>
+              <input class="textbox" id="hora" name="hora" type="text" title="Indique a hora em que pretende recolher o seu pedido" required>
             <br>
             <br>
           </div>
@@ -110,7 +113,7 @@
             <br> 
               <span class="item dados">
                 <label for="morada">Morada / Código Postal</label>
-                  <input id="morada" name="dados-cliente" type="text" required>
+                  <input id="morada" name="dados-cliente" type="text">
               </span>
           </div>
           <br><br>
